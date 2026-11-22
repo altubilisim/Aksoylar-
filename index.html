@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aksoylar Düğün &amp; Davet Salonları | Sancaktepe • 1979'dan Günümüze</title>
+  <meta name="description" content="İstanbul Sancaktepe İnönü Mah. Demokrasi Cad. No:35 adresinde 875 kişilik Salon 1 ve 550 kişilik Salon 2 ile 1979'dan günümüze düğün, nişan, kına ve özel davet organizasyonları." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#0B0D12',
+            charcoal: '#12161F',
+            slateCard: '#171C27',
+            gold: {
+              DEFAULT: '#D4AF37',
+              light: '#E8CC6B',
+              dark: '#9E7B1B',
+              soft: 'rgba(212, 175, 55, 0.12)'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    :root {
+      --bg-primary: #0B0D12;
+      --bg-secondary: #12161F;
+      --gold-primary: #D4AF37;
+      --gold-light: #E8CC6B;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: #F4F5F7;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      overflow-x: hidden;
+    }
+
+    .font-display {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #F6E299 0%, #D4AF37 48%, #B28822 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gold-btn {
+      background: linear-gradient(135deg, #E6C558 0%, #C89F2C 100%);
+      color: #0B0D12;
+      transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
+    }
+
+    .gold-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 28px rgba(212, 175, 55, 0.28);
+      filter: brightness(1.04);
+    }
+
+    .glass-panel {
+      background: rgba(18, 22, 31, 0.78);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(212, 175, 55, 0.16);
+    }
+
+    .hero-backdrop {
+      background:
+        radial-gradient(circle at 20% 20%, rgba(212, 175, 55, 0.14), transparent 45%),
+        radial-gradient(circle at 82% 28%, rgba(184, 134, 45, 0.12), transparent 50%),
+        linear-gradient(180deg, rgba(11, 13, 18, 0.78) 0%, rgba(11, 13, 18, 0.92) 65%, #0B0D12 100%);
+    }
+
+    .section-divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.35), transparent);
+    }
+
+    /* Logo Video Styling - No play overlay, seamless loop, sound unlocked on first interaction */
+    .logo-video-box {
+      width: 184px;
+      height: 66px;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+    }
+
+    @media (min-width: 768px) {
+      .logo-video-box {
+        width: 224px;
+        height: 80px;
+      }
+    }
+
+    .logo-video-box video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      pointer-events: none;
+    }
+
+    .logo-video-box video::-webkit-media-controls,
+    .logo-video-box video::-webkit-media-controls-enclosure,
+    .logo-video-box video::-webkit-media-controls-panel,
+    .logo-video-box video::-webkit-media-controls-start-playback-button {
+      display: none !important;
+      -webkit-appearance: none;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+
+    .slot-photo-box {
+      display: none;
+    }
+
+    body.show-photo-slots .slot-photo-box {
+      display: block;
+    }
+
+    .modal-backdrop {
+      background: rgba(5, 7, 11, 0.82);
+      backdrop-filter: blur(8px);
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-gold selection:text-obsidian">
+
+  <!-- Üst Bilgi Şeridi -->
+  <div class="bg-charcoal/95 border-b border-gold/15 text-xs text-slate-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-wrap items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+        <span class="font-semibold text-gold-light tracking-wide">1979'dan Günümüze</span>
+        <span class="hidden sm:inline text-slate-600">|</span>
+        <span>İnönü Mah. Demokrasi Cad. No:35 Sancaktepe / İstanbul</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:02166218096" class="hover:text-gold-light transition-colors font-medium">0 216 621 80 96</a>
+        <span class="text-slate-600">|</span>
+        <a href="tel:+905333390027" class="hover:text-gold-light transition-colors font-medium">+90 533 339 00 27</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ana Navigasyon -->
+  <header class="sticky top-0 z-40 glass-panel border-b border-gold/15">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3">
+
+      <!-- Sol Üst Logo Videosu -->
+      <a href="#top" aria-label="Aksoylar Düğün Salonları Ana Sayfa" class="flex items-center shrink-0">
+        <div class="logo-video-box">
+          <video
+            id="aksoylarLogoVideo"
+            src="gemini_generated_video_D037525B.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            webkit-playsinline
+            preload="auto"
+          >
+            <source src="gemini_generated_video_D037525B.mp4" type="video/mp4" />
+            <source src="video_1.mp4" type="video/mp4" />
+            <source src="logo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </a>
+
+      <!-- Masaüstü Menü -->
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-200">
+        <a href="#salonlar" class="hover:text-gold-light transition-colors">Salonlarımız</a>
+        <a href="#organizasyonlar" class="hover:text-gold-light transition-colors">Organizasyonlar</a>
+        <a href="#menuler" class="hover:text-gold-light transition-colors">Menü Paketleri</a>
+        <a href="#hesaplayici" class="hover:text-gold-light transition-colors">Fiyat &amp; Davet Planlayıcı</a>
+        <a href="#iletisim" class="hover:text-gold-light transition-colors">İletişim</a>
+      </nav>
+
+      <!-- Sağ Aksiyon Alanı -->
+      <div class="flex items-center gap-2.5">
+        <button
+          type="button"
+          id="toggleSlotsBtn"
+          onclick="togglePhotoSlots()"
+          class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium border border-gold/30 text-gold-light hover:bg-gold/10 transition-colors"
+          title="Eski site fotoğraf yuvalarını göster/gizle"
+        >
+          <span class="w-2 h-2 rounded-full bg-gold" id="slotIndicator"></span>
+          <span>Slotlar</span>
+        </button>
+
+        <button
+          type="button"
+          onclick="openQuoteModal()"
+          class="gold-btn px-4 py-2.5 rounded-lg text-xs sm:text-sm font-semibold tracking-wide"
+        >
+          Hemen Fiyat Al
+        </button>
+
+        <button
+          type="button"
+          id="mobileMenuBtn"
+          onclick="toggleMobileMenu()"
+          aria-label="Menüyü Aç"
+          class="lg:hidden p-2 rounded-lg border border-gold/25 text-gold-light hover:bg-gold/10"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobil Açılır Menü -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-charcoal border-t border-gold/15 px-4 py-4 space-y-2.5 text-sm">
+      <a href="#salonlar" onclick="closeMobileMenu()" class="block py-2 text-slate-200 hover:text-gold-light">Salonlarımız</a>
+      <a href="#organizasyonlar" onclick="closeMobileMenu()" class="block py-2 text-slate-200 hover:text-gold-light">Organizasyonlar</a>
+      <a href="#menuler" onclick="closeMobileMenu()" class="block py-2 text-slate-200 hover:text-gold-light">Menü Paketleri</a>
+      <a href="#hesaplayici" onclick="closeMobileMenu()" class="block py-2 text-slate-200 hover:text-gold-light">Fiyat &amp; Davet Planlayıcı</a>
+      <a href="#iletisim" onclick="closeMobileMenu()" class="block py-2 text-slate-200 hover:text-gold-light">İletişim</a>
+      <div class="pt-2 flex items-center justify-between border-t border-slate-800">
+        <button type="button" onclick="togglePhotoSlots()" class="text-xs text-gold-light underline">Eski Fotoğraf Slotları</button>
+        <a href="https://wa.me/905333390027" target="_blank" rel="noopener" class="text-xs font-semibold text-emerald-400">WhatsApp Hattı</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Bölümü -->
+    <section class="relative hero-backdrop pt-14 pb-20 lg:pt-20 lg:pb-28 border-b border-gold/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold-light text-xs font-semibold tracking-wider uppercase">
+            <span>Sancaktepe • 1979'dan Günümüze Davet Mirası</span>
+          </div>
+
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.08] text-white">
+            İstanbul Sancaktepe'de <br />
+            <span class="gold-gradient-text italic">Unutulmaz Düğün ve Davetlerin</span> Adresi
+          </h1>
+
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">
+            875 kişilik kolonsuz <strong class="text-white font-semibold">Aksoylar Salon 1</strong> ve 550 kişilik VIP <strong class="text-white font-semibold">Aksoylar Salon 2</strong> ile kristal avizeler, görkemli sahne şovları ve seçkin ikram menüleri eşliğinde hayalinizdeki geceyi gerçeğe dönüştürüyoruz.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-3.5 pt-1">
+            <a
+              href="https://wa.me/905333390027?text=Merhaba%2C%20Aksoylar%20D%C3%BC%C4%9F%C3%BCn%20Salonlar%C4%B1%20i%C3%A7in%20fiyat%20ve%20m%C3%BCsaitlik%20bilgisi%20almak%20istiyorum."
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold shadow-lg shadow-emerald-950/50 transition-all"
+            >
+              <span>WhatsApp ile İletişime Geç</span>
+            </a>
+
+            <button
+              type="button"
+              onclick="openQuoteModal()"
+              class="gold-btn px-6 py-3.5 rounded-xl text-sm font-semibold"
+            >
+              Hızlı Teklif Al
+            </button>
+
+            <a href="#salonlar" class="px-5 py-3.5 rounded-xl border border-slate-700 hover:border-gold/50 text-slate-200 hover:text-gold-light text-sm font-medium transition-colors">
+              Salonları İncele
+            </a>
+          </div>
+
+          <!-- Öne Çıkan Metrikler -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-slate-800/90">
+            <div>
+              <div class="font-display text-3xl font-bold text-gold-light">1979</div>
+              <div class="text-xs text-slate-400 mt-0.5">Köklü Organizasyon Deneyimi</div>
+            </div>
+            <div>
+              <div class="font-display text-3xl font-bold text-white">875</div>
+              <div class="text-xs text-slate-400 mt-0.5">Salon 1 Misafir Kapasitesi</div>
+            </div>
+            <div>
+              <div class="font-display text-3xl font-bold text-white">550</div>
+              <div class="text-xs text-slate-400 mt-0.5">Salon 2 VIP Kapasitesi</div>
+            </div>
+            <div>
+              <div class="font-display text-3xl font-bold text-gold-light">1.425+</div>
+              <div class="text-xs text-slate-400 mt-0.5">Toplam Davet Kapasitesi</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sağ Vitrin Kartı -->
+        <div class="lg:col-span-5">
+          <div class="glass-panel rounded-2xl p-6 sm:p-7 shadow-2xl space-y-5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+              <div>
+                <p class="text-xs uppercase tracking-widest text-gold-light font-semibold">Sancaktepe Merkez</p>
+                <h2 class="font-display text-2xl font-semibold text-white mt-0.5">Davet Danışmanlığı</h2>
+              </div>
+              <span class="px-3 py-1 rounded-full text-xs font-medium bg-gold/15 text-gold-light border border-gold/30">
+                2026 - 2027 Rezervasyon
+              </span>
+            </div>
+
+            <div class="space-y-3 text-sm text-slate-300">
+              <div class="flex items-start gap-3">
+                <span class="w-2 h-2 rounded-full bg-gold mt-2 shrink-0"></span>
+                <p><strong class="text-white">Kolonsuz Ferah Mimari:</strong> Kesintisiz sahne görüşü, yüksek tavan ve modern iklimlendirme.</p>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="w-2 h-2 rounded-full bg-gold mt-2 shrink-0"></span>
+                <p><strong class="text-white">Profesyonel Ses &amp; Işık Sahnesi:</strong> İlk dans volkanları, takip ışığı ve canlı orkestra/DJ altyapısı.</p>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="w-2 h-2 rounded-full bg-gold mt-2 shrink-0"></span>
+                <p><strong class="text-white">Esnek Menü Seçenekleri:</strong> Kokteyl, ordövr tabağı, kırmızı/beyaz et menüleri ve özel pasta sunumu.</p>
+              </div>
+            </div>
+
+            <div class="rounded-xl overflow-hidden border border-gold/25 bg-obsidian/80">
+              <img src="hero-salon.jpg" alt="Aksoylar Davet Sahnesi" class="w-full h-44 object-cover" onerror="this.parentElement.style.display='none'" />
+            </div>
+
+            <div class="pt-2 grid grid-cols-2 gap-3">
+              <a href="tel:02166218096" class="text-center py-2.5 px-3 rounded-xl border border-slate-700 hover:border-gold/50 text-xs font-semibold text-white transition-colors">
+                Sabit Hat: 0216 621 80 96
+              </a>
+              <a href="tel:+905333390027" class="text-center py-2.5 px-3 rounded-xl border border-slate-700 hover:border-gold/50 text-xs font-semibold text-white transition-colors">
+                Mobil: 0533 339 00 27
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Salonlarımız -->
+    <section id="salonlar" class="py-20 lg:py-24 bg-obsidian">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-12">
+          <p class="text-xs uppercase tracking-[0.2em] text-gold-light font-semibold">Salon Seçenekleri</p>
+          <h2 class="font-display text-3xl sm:text-5xl font-semibold text-white mt-2">
+            Davet Büyüklüğünüze Özel <span class="gold-gradient-text italic">İki Seçkin Salon</span>
+          </h2>
+          <p class="text-slate-400 mt-3 text-sm sm:text-base">
+            Geniş katılımlı görkemli düğünlerden samimi ve şık VIP davetlere kadar her konsepte uygun salon altyapısı.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Salon 1 -->
+          <article class="glass-panel rounded-2xl p-7 flex flex-col justify-between space-y-6 hover:border-gold/40 transition-colors">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between gap-2">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gold/15 text-gold-light border border-gold/30">
+                  Ana Balo Salonu
+                </span>
+                <span class="text-sm font-bold text-white">875 Kişilik Kapasite</span>
+              </div>
+
+              <h3 class="font-display text-3xl font-semibold text-white">Aksoylar Salon 1</h3>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                Yüksek tavanlı, kolonsuz ve geniş dans pistine sahip ana salonumuz; kalabalık düğünler, gösterişli gelin yolu seremonileri ve kapsamlı sahne prodüksiyonları için tasarlanmıştır.
+              </p>
+
+              <ul class="space-y-2 text-xs sm:text-sm text-slate-300 pt-1">
+                <li>• Gelin-damat hazırlık suiti ve özel karşılama alanı</li>
+                <li>• Geniş sahne, LED/ışık sistemi ve güçlü iklimlendirme</li>
+                <li>• Kolay ulaşım ve otopark yönlendirme desteği</li>
+              </ul>
+
+              <div class="rounded-xl overflow-hidden border border-gold/25 bg-charcoal/80">
+                <img src="salon-1.jpg" alt="Aksoylar Salon 1 - 875 Kişilik Ana Balo Salonu" class="w-full h-48 object-cover" onerror="this.parentElement.style.display='none'" />
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800 flex items-center justify-between gap-3">
+              <span class="text-xs text-slate-400">Düğün • Nişan • Kına • Balo</span>
+              <button type="button" onclick="selectSalonAndOpenModal('Aksoylar Salon 1 (875 Kişi)')" class="gold-btn px-4 py-2 rounded-lg text-xs font-semibold">
+                Salon 1 İçin Teklif Al
+              </button>
+            </div>
+          </article>
+
+          <!-- Salon 2 -->
+          <article class="glass-panel rounded-2xl p-7 flex flex-col justify-between space-y-6 hover:border-gold/40 transition-colors">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between gap-2">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gold/15 text-gold-light border border-gold/30">
+                  VIP Davet Salonu
+                </span>
+                <span class="text-sm font-bold text-white">550 Kişilik Kapasite</span>
+              </div>
+
+              <h3 class="font-display text-3xl font-semibold text-white">Aksoylar Salon 2</h3>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                Sıcak atmosferi, zarif masa düzeni ve seçkin aydınlatmasıyla öne çıkan Salon 2; butik düğünler, nişan törenleri, kına geceleri ve kurumsal davetler için idealdir.
+              </p>
+
+              <ul class="space-y-2 text-xs sm:text-sm text-slate-300 pt-1">
+                <li>• Misafirlerle yakın ve sıcak iletişim sağlayan sahne düzeni</li>
+                <li>• Kişiye özel masa süsleme ve menü alternatifleri</li>
+                <li>• Hızlı ve özenli servis ekibi koordinasyonu</li>
+              </ul>
+
+              <div class="rounded-xl overflow-hidden border border-gold/25 bg-charcoal/80">
+                <img src="salon-2.jpg" alt="Aksoylar Salon 2 - 550 Kişilik VIP Davet Salonu" class="w-full h-48 object-cover" onerror="this.parentElement.style.display='none'" />
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800 flex items-center justify-between gap-3">
+              <span class="text-xs text-slate-400">Butik Düğün • Nişan • Kına • Toplantı</span>
+              <button type="button" onclick="selectSalonAndOpenModal('Aksoylar Salon 2 (550 Kişi)')" class="gold-btn px-4 py-2 rounded-lg text-xs font-semibold">
+                Salon 2 İçin Teklif Al
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider max-w-7xl mx-auto"></div>
+
+    <!-- Organizasyon Türleri -->
+    <section id="organizasyonlar" class="py-20 lg:py-24 bg-charcoal/50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <p class="text-xs uppercase tracking-[0.2em] text-gold-light font-semibold">Hizmet Kapsamı</p>
+          <h2 class="font-display text-3xl sm:text-5xl font-semibold text-white mt-2">
+            Her Özel Ana <span class="gold-gradient-text italic">Özenli Dokunuş</span>
+          </h2>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="glass-panel rounded-2xl p-6 space-y-2.5">
+            <div class="text-gold-light font-display text-2xl font-semibold">Düğün Organizasyonu</div>
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Nikah akışı, ilk dans koreografisi/efektleri, fotoğraf-video alanı ve kesintisiz eğlence planlaması.</p>
+          </div>
+          <div class="glass-panel rounded-2xl p-6 space-y-2.5">
+            <div class="text-gold-light font-display text-2xl font-semibold">Nişan &amp; Söz Daveti</div>
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Şık nişan köşesi, zarif ikram sunumları ve aile büyüklerine uygun konforlu oturma düzeni.</p>
+          </div>
+          <div class="glass-panel rounded-2xl p-6 space-y-2.5">
+            <div class="text-gold-light font-display text-2xl font-semibold">Kına Gecesi</div>
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Geleneksel ve modern kına konseptleri, bindallı/kaftan uyumlu sahne ambiyansı ve coşkulu müzik akışı.</p>
+          </div>
+          <div class="glass-panel rounded-2xl p-6 space-y-2.5">
+            <div class="text-gold-light font-display text-2xl font-semibold">Özel &amp; Kurumsal Davetler</div>
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Sünnet düğünü, mezuniyet, dernek geceleri ve kurumsal yemekler için esnek salon çözümleri.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menü Paketleri -->
+    <section id="menuler" class="py-20 lg:py-24 bg-obsidian">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-12">
+          <p class="text-xs uppercase tracking-[0.2em] text-gold-light font-semibold">İkram &amp; Menü Alternatifleri</p>
+          <h2 class="font-display text-3xl sm:text-5xl font-semibold text-white mt-2">
+            Damak Tadına Uygun <span class="gold-gradient-text italic">Seçkin Paketler</span>
+          </h2>
+          <p class="text-slate-400 mt-3 text-sm sm:text-base">
+            Paket içerikleri misafir sayısına, sezona ve talebinize göre danışmanlarımızla birlikte özelleştirilebilir.
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-7">
+          <!-- Paket 1 -->
+          <div class="glass-panel rounded-2xl p-7 flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="text-xs font-semibold uppercase tracking-wider text-gold-light">Paket 01</div>
+              <h3 class="font-display text-2xl font-semibold text-white">Klasik Pasta &amp; Kokteyl</h3>
+              <p class="text-xs text-slate-400">Ferah ve zarif ikram düzeni arayan davetler için.</p>
+              <ul class="space-y-2 text-sm text-slate-300 pt-2">
+                <li>• Özel tasarım düğün pastası</li>
+                <li>• Tatlı &amp; tuzlu kuru pasta çeşitleri</li>
+                <li>• Mevsim meyveleri ve meşrubat servisi</li>
+                <li>• Masa başı profesyonel servis</li>
+              </ul>
+            </div>
+            <button type="button" onclick="selectPackageAndOpenModal('Klasik Pasta & Kokteyl')" class="w-full py-2.5 rounded-xl border border-gold/40 text-gold-light hover:bg-gold/10 text-xs font-semibold transition-colors">
+              Bu Paket İçin Bilgi Al
+            </button>
+          </div>
+
+          <!-- Paket 2 -->
+          <div class="glass-panel rounded-2xl p-7 flex flex-col justify-between space-y-6 border-gold/45 ring-1 ring-gold/25">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-semibold uppercase tracking-wider text-gold-light">Paket 02</span>
+                <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-gold text-obsidian">En Çok Tercih Edilen</span>
+              </div>
+              <h3 class="font-display text-2xl font-semibold text-white">Zengin Beyaz Et Menü</h3>
+              <p class="text-xs text-slate-400">Dengeli, doyurucu ve özenli sunumlu ana yemek menüsü.</p>
+              <ul class="space-y-2 text-sm text-slate-300 pt-2">
+                <li>• Ordövr / başlangıç tabağı</li>
+                <li>• Özel soslu beyaz et ana yemek &amp; garnitür</li>
+                <li>• Taze mevsim salatası &amp; düğün pastası</li>
+                <li>• Sınırsız meşrubat ve çay/kahve ikramı</li>
+              </ul>
+            </div>
+            <button type="button" onclick="selectPackageAndOpenModal('Zengin Beyaz Et Menü')" class="w-full gold-btn py-2.5 rounded-xl text-xs font-semibold">
+              Bu Paket İçin Bilgi Al
+            </button>
+          </div>
+
+          <!-- Paket 3 -->
+          <div class="glass-panel rounded-2xl p-7 flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div class="text-xs font-semibold uppercase tracking-wider text-gold-light">Paket 03</div>
+              <h3 class="font-display text-2xl font-semibold text-white">Gala Kırmızı Et Menü</h3>
+              <p class="text-xs text-slate-400">Görkemli gala akşamları için üst segment ikram seçkisi.</p>
+              <ul class="space-y-2 text-sm text-slate-300 pt-2">
+                <li>• Zengin ordövr ve ara sıcak sunumu</li>
+                <li>• Seçkin kırmızı et ana yemek &amp; özel garnitür</li>
+                <li>• Düğün pastası, meyve ve içecek ikramı</li>
+                <li>• VIP misafir ağırlama koordinasyonu</li>
+              </ul>
+            </div>
+            <button type="button" onclick="selectPackageAndOpenModal('Gala Kırmızı Et Menü')" class="w-full py-2.5 rounded-xl border border-gold/40 text-gold-light hover:bg-gold/10 text-xs font-semibold transition-colors">
+              Bu Paket İçin Bilgi Al
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İnteraktif Fiyat & Davet Planlayıcı -->
+    <section id="hesaplayici" class="py-20 lg:py-24 bg-charcoal/70 border-y border-gold/15">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <p class="text-xs uppercase tracking-[0.2em] text-gold-light font-semibold">Tahmini Bütçe Hesaplayıcı</p>
+          <h2 class="font-display text-3xl sm:text-4xl font-semibold text-white mt-2">
+            Davet Detaylarınıza Göre <span class="gold-gradient-text italic">Ön Hesaplama</span>
+          </h2>
+          <p class="text-slate-400 text-xs sm:text-sm mt-2">
+            Kesin fiyatlandırma tarih, gün (hafta içi / hafta sonu) ve özel taleplere göre netleşir; bu araç hızlı ön bilgi sağlar.
+          </p>
+        </div>
+
+        <div class="glass-panel rounded-2xl p-6 sm:p-8 grid lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-7 space-y-5">
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Salon Seçimi</label>
+              <div class="grid grid-cols-2 gap-3">
+                <button type="button" data-salon-opt="salon1" onclick="setCalcSalon('salon1')" class="calc-salon-btn py-3 px-4 rounded-xl border border-gold bg-gold/15 text-white text-xs sm:text-sm font-semibold text-left">
+                  Salon 1 <span class="block text-[11px] font-normal text-gold-light">875 Kişiye Kadar</span>
+                </button>
+                <button type="button" data-salon-opt="salon2" onclick="setCalcSalon('salon2')" class="calc-salon-btn py-3 px-4 rounded-xl border border-slate-700 bg-obsidian/60 text-slate-300 text-xs sm:text-sm font-semibold text-left">
+                  Salon 2 <span class="block text-[11px] font-normal text-slate-400">550 Kişiye Kadar</span>
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex items-center justify-between text-xs sm:text-sm mb-2">
+                <label for="guestRange" class="font-semibold text-slate-200">Tahmini Misafir Sayısı</label>
+                <span id="guestCountLabel" class="font-bold text-gold-light text-base">400 Kişi</span>
+              </div>
+              <input id="guestRange" type="range" min="100" max="875" step="25" value="400" oninput="updateCalculator()" class="w-full accent-[#D4AF37] cursor-pointer" />
+              <div class="flex justify-between text-[11px] text-slate-500 mt-1">
+                <span>100</span>
+                <span>350</span>
+                <span>600</span>
+                <span id="maxGuestHint">875</span>
+              </div>
+            </div>
+
+            <div>
+              <label for="menuSelect" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Menü Paketi</label>
+              <select id="menuSelect" onchange="updateCalculator()" class="w-full rounded-xl bg-obsidian border border-slate-700 focus:border-gold px-4 py-3 text-sm text-white outline-none">
+                <option value="pasta" data-price="450">Klasik Pasta &amp; Kokteyl (Tahmini 450 TL / Kişi)</option>
+                <option value="beyaz" data-price="750" selected>Zengin Beyaz Et Menü (Tahmini 750 TL / Kişi)</option>
+                <option value="kirmizi" data-price="1050">Gala Kırmızı Et Menü (Tahmini 1.050 TL / Kişi)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 bg-obsidian/90 rounded-2xl p-6 border border-gold/25 space-y-4">
+            <div class="text-xs uppercase tracking-wider text-gold-light font-semibold">Tahmini Toplam aralık</div>
+            <div id="estimatedTotal" class="font-display text-3xl sm:text-4xl font-bold text-white">300.000 TL</div>
+            <p id="calcSummaryText" class="text-xs text-slate-400 leading-relaxed">
+              Salon 1 • 400 misafir • Zengin Beyaz Et Menü baz alınarak hesaplanan tahmini tutardır.
+            </p>
+            <div class="pt-2 space-y-2.5">
+              <button type="button" onclick="sendCalculatedToModal()" class="w-full gold-btn py-3 rounded-xl text-xs sm:text-sm font-semibold">
+                Bu Bilgilerle Teklif İste
+              </button>
+              <a id="calcWhatsAppLink" href="#" target="_blank" rel="noopener" class="block w-full text-center py-2.5 rounded-xl bg-emerald-600/90 hover:bg-emerald-500 text-white text-xs font-semibold transition-colors">
+                Özetini WhatsApp'tan Gönder
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim & Adres -->
+    <section id="iletisim" class="py-20 lg:py-24 bg-obsidian">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <p class="text-xs uppercase tracking-[0.2em] text-gold-light font-semibold">İletişim &amp; Konum</p>
+            <h2 class="font-display text-3xl sm:text-4xl font-semibold text-white mt-2">
+              Sizi Salonlarımızda <span class="gold-gradient-text italic">Ağırlayalım</span>
+            </h2>
+          </div>
+
+          <div class="glass-panel rounded-2xl p-6 space-y-4 text-sm text-slate-300">
+            <div>
+              <div class="text-xs uppercase tracking-wider text-gold-light font-semibold">Adres</div>
+              <p class="mt-1 text-white">İnönü Mah. Demokrasi Cad. No:35 Sancaktepe / İstanbul</p>
+            </div>
+            <div>
+              <div class="text-xs uppercase tracking-wider text-gold-light font-semibold">Telefon Hatları</div>
+              <p class="mt-1">
+                <a href="tel:02166218096" class="hover:text-gold-light">0 216 621 80 96</a>
+                <span class="mx-2 text-slate-600">/</span>
+                <a href="tel:+905333390027" class="hover:text-gold-light">+90 533 339 00 27</a>
+              </p>
+            </div>
+            <div>
+              <div class="text-xs uppercase tracking-wider text-gold-light font-semibold">Çalışma Saatleri</div>
+              <p class="mt-1 text-slate-300">Haftanın her günü randevu ve salon gezisi imkânı</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 glass-panel rounded-2xl overflow-hidden border border-gold/20">
+          <iframe
+            title="Aksoylar Düğün Salonları Sancaktepe Konum Haritası"
+            src="https://www.google.com/maps?q=%C4%B0n%C3%B6n%C3%BC+Mah.+Demokrasi+Cad.+No:35+Sancaktepe+%C4%B0stanbul&output=embed"
+            class="w-full h-80 sm:h-96 border-0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Alt Bilgi (Footer) -->
+  <footer class="bg-charcoal border-t border-gold/15 py-10 text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <strong class="text-white font-semibold">Aksoylar Düğün &amp; Davet Salonları</strong> • Sancaktepe / İstanbul
+      </div>
+      <div>
+        1979'dan Günümüze • Salon 1 (875) &amp; Salon 2 (550)
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sabit Hızlı WhatsApp Butonu -->
+  <a
+    href="https://wa.me/905333390027?text=Merhaba%2C%20Aksoylar%20D%C3%BC%C4%9F%C3%BCn%20Salonlar%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+    target="_blank"
+    rel="noopener"
+    aria-label="WhatsApp Hızlı Bilgi Hattı"
+    class="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-semibold shadow-2xl transition-transform hover:scale-105"
+  >
+    <span class="w-2.5 h-2.5 rounded-full bg-emerald-200 animate-pulse"></span>
+    <span>WhatsApp Hattı</span>
+  </a>
+
+  <!-- Teklif Modalı -->
+  <div id="quoteModal" class="hidden fixed inset-0 z-50 modal-backdrop items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="quoteModalTitle">
+    <div class="glass-panel rounded-2xl max-w-lg w-full p-6 sm:p-7 border border-gold/30 shadow-2xl space-y-5 relative">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3.5">
+        <h3 id="quoteModalTitle" class="font-display text-2xl font-semibold text-white">Hızlı Fiyat &amp; Tarih Talebi</h3>
+        <button type="button" onclick="closeQuoteModal()" aria-label="Kapat" class="text-slate-400 hover:text-white text-xl leading-none px-2">&times;</button>
+      </div>
+
+      <form id="quoteForm" onsubmit="submitQuoteForm(event)" class="space-y-4 text-sm">
+        <div>
+          <label for="customerName" class="block text-xs font-semibold text-slate-300 mb-1">Ad Soyad</label>
+          <input id="customerName" type="text" required placeholder="Adınız ve soyadınız" class="w-full rounded-xl bg-obsidian border border-slate-700 focus:border-gold px-3.5 py-2.5 text-white outline-none" />
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-3.5">
+          <div>
+            <label for="customerPhone" class="block text-xs font-semibold text-slate-300 mb-1">Telefon</label>
+            <input id="customerPhone" type="tel" required placeholder="05xx xxx xx xx" class="w-full rounded-xl bg-obsidian border border-slate-700 focus:border-gold px-3.5 py-2.5 text-white outline-none" />
+          </div>
+          <div>
+            <label for="eventDate" class="block text-xs font-semibold text-slate-300 mb-1">Tahmini Tarih</label>
+            <input id="eventDate" type="date" class="w-full rounded-xl bg-obsidian border border-slate-700 focus:border-gold px-3.5 py-2.5 text-white outline-none" />
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-3.5">
+          <div>
+            <label for="modalSalon" class="block text-xs font-semibold text-slate-300 mb-1">Salon Tercihi</label>
+            <select id="modalSalon" class="w-full rounded-xl bg-obsidian border border-slate-700 focus:border-gold px-3.5 py-2.5 text-white outline-none">
+              <option value="Aksoylar Salon 1 (875 Kişi)">Aksoylar Salon 1 (875 Kişi)</option>
+              <option value="Aksoylar Salon 2 (550 Kişi)">Aksoylar Salon 2 (550 Kişi)</option>
+              <option value="Farketmez / Danışmak İstiyorum">Farketmez / Danışmak İstiyorum</option>
+            </select>
+          </div>
+          <div>
+            <label for="modalGuests" class="block text-xs font-semibold text-slate-300 mb-1">Tahmini Misafir</label>
+            <input id="modalGuests" type="number" min="50" max="1000" value="400" class="w-full rounded-xl bg-obsidian border border-slate-700 focus:border-gold px-3.5 py-2.5 text-white outline-none" />
+          </div>
+        </div>
+
+        <div>
+          <label for="modalNotes" class="block text-xs font-semibold text-slate-300 mb-1">Organizasyon Türü / Notunuz</label>
+          <textarea id="modalNotes" rows="2" placeholder="Düğün, nişan, kına veya menü tercihinizi yazabilirsiniz..." class="w-full rounded-xl bg-obsidian border border-slate-700 focus:border-gold px-3.5 py-2.5 text-white outline-none"></textarea>
+        </div>
+
+        <div class="pt-2 flex items-center justify-end gap-3">
+          <button type="button" onclick="closeQuoteModal()" class="px-4 py-2.5 rounded-xl border border-slate-700 text-xs font-semibold text-slate-300 hover:text-white">
+            Vazgeç
+          </button>
+          <button type="submit" class="gold-btn px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold">
+            WhatsApp ile Gönder
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Logo videosunun tarayıcı kurallarına uyumlu otomatik oynatılması ve ilk etkileşimde sesinin açılması
+    (function setupLogoVideo() {
+      const video = document.getElementById('aksoylarLogoVideo');
+      if (!video) return;
+
+      video.muted = true;
+      video.defaultMuted = true;
+      video.volume = 0;
+
+      function ensurePlaying() {
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === 'function') {
+          playPromise.catch(() => {});
+        }
+      }
+
+      ensurePlaying();
+      window.addEventListener('load', ensurePlaying);
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) ensurePlaying();
+      });
+
+      let soundUnlocked = false;
+      function unlockSoundOnFirstGesture() {
+        if (soundUnlocked) return;
+        soundUnlocked = true;
+        try {
+          video.muted = false;
+          video.defaultMuted = false;
+          video.volume = 1;
+          const p = video.play();
+          if (p && typeof p.catch === 'function') {
+            p.catch(() => {
+              video.muted = true;
+              video.volume = 0;
+              video.play().catch(() => {});
+            });
+          }
+        } catch (_) {}
+
+        ['pointerdown', 'touchstart', 'click', 'keydown'].forEach((evt) => {
+          document.removeEventListener(evt, unlockSoundOnFirstGesture, true);
+        });
+      }
+
+      ['pointerdown', 'touchstart', 'click', 'keydown'].forEach((evt) => {
+        document.addEventListener(evt, unlockSoundOnFirstGesture, { capture: true, passive: true });
+      });
+    })();
+
+    // Mobil menü kontrolü
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      if (menu) menu.classList.toggle('hidden');
+    }
+
+    function closeMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      if (menu) menu.classList.add('hidden');
+    }
+
+    // Eski fotoğraf slotları anahtarı
+    function togglePhotoSlots() {
+      document.body.classList.toggle('show-photo-slots');
+      const active = document.body.classList.contains('show-photo-slots');
+      const dot = document.getElementById('slotIndicator');
+      if (dot) {
+        dot.classList.toggle('bg-emerald-400', active);
+        dot.classList.toggle('bg-gold', !active);
+      }
+    }
+
+    // Teklif modalı
+    function openQuoteModal() {
+      const modal = document.getElementById('quoteModal');
+      if (!modal) return;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeQuoteModal() {
+      const modal = document.getElementById('quoteModal');
+      if (!modal) return;
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function selectSalonAndOpenModal(salonLabel) {
+      const select = document.getElementById('modalSalon');
+      if (select) select.value = salonLabel;
+      openQuoteModal();
+    }
+
+    function selectPackageAndOpenModal(packageName) {
+      const notes = document.getElementById('modalNotes');
+      if (notes && !notes.value.includes(packageName)) {
+        notes.value = `İlgilenilen Menü Paketi: ${packageName}`;
+      }
+      openQuoteModal();
+    }
+
+    function submitQuoteForm(event) {
+      event.preventDefault();
+      const name = document.getElementById('customerName').value.trim();
+      const phone = document.getElementById('customerPhone').value.trim();
+      const date = document.getElementById('eventDate').value;
+      const salon = document.getElementById('modalSalon').value;
+      const guests = document.getElementById('modalGuests').value;
+      const notes = document.getElementById('modalNotes').value.trim();
+
+      const lines = [
+        'Merhaba, Aksoylar Düğün Salonları için fiyat ve müsaitlik talebim:',
+        `• Ad Soyad: ${name}`,
+        `• Telefon: ${phone}`,
+        date ? `• Tarih: ${date}` : null,
+        `• Salon: ${salon}`,
+        `• Tahmini Misafir: ${guests} kişi`,
+        notes ? `• Not: ${notes}` : null
+      ].filter(Boolean);
+
+      const url = `https://wa.me/905333390027?text=${encodeURIComponent(lines.join('
+'))}`;
+      window.open(url, '_blank', 'noopener');
+      closeQuoteModal();
+    }
+
+    // Fiyat hesaplayıcı
+    let calcSalon = 'salon1';
+
+    function setCalcSalon(salonKey) {
+      calcSalon = salonKey;
+      const range = document.getElementById('guestRange');
+      const hint = document.getElementById('maxGuestHint');
+      const maxCap = salonKey === 'salon1' ? 875 : 550;
+
+      if (range) {
+        range.max = String(maxCap);
+        if (Number(range.value) > maxCap) {
+          range.value = String(maxCap);
+        }
+      }
+      if (hint) hint.textContent = String(maxCap);
+
+      document.querySelectorAll('.calc-salon-btn').forEach((btn) => {
+        const isSelected = btn.getAttribute('data-salon-opt') === salonKey;
+        btn.classList.toggle('border-gold', isSelected);
+        btn.classList.toggle('bg-gold/15', isSelected);
+        btn.classList.toggle('text-white', isSelected);
+        btn.classList.toggle('border-slate-700', !isSelected);
+        btn.classList.toggle('bg-obsidian/60', !isSelected);
+        btn.classList.toggle('text-slate-300', !isSelected);
+      });
+
+      updateCalculator();
+    }
+
+    function updateCalculator() {
+      const range = document.getElementById('guestRange');
+      const guestLabel = document.getElementById('guestCountLabel');
+      const select = document.getElementById('menuSelect');
+      const totalEl = document.getElementById('estimatedTotal');
+      const summaryEl = document.getElementById('calcSummaryText');
+      const waLink = document.getElementById('calcWhatsAppLink');
+
+      if (!range || !select || !totalEl) return;
+
+      const guests = Number(range.value) || 400;
+      const opt = select.options[select.selectedIndex];
+      const unitPrice = Number(opt?.getAttribute('data-price') || 750);
+      const menuText = opt ? opt.text.split(' (')[0] : 'Zengin Beyaz Et Menü';
+      const salonTitle = calcSalon === 'salon1' ? 'Salon 1' : 'Salon 2';
+      const total = guests * unitPrice;
+
+      if (guestLabel) guestLabel.textContent = `${guests} Kişi`;
+      totalEl.textContent = `${total.toLocaleString('tr-TR')} TL`;
+
+      const summary = `${salonTitle} • ${guests} misafir • ${menuText} baz alınarak hesaplanan tahmini tutardır.`;
+      if (summaryEl) summaryEl.textContent = summary;
+
+      if (waLink) {
+        const msg = `Merhaba, Aksoylar Düğün Salonları için ön hesaplama özeti:
+• Salon: ${salonTitle}
+• Misafir: ${guests} kişi
+• Menü: ${menuText}
+• Tahmini Tutar: ${total.toLocaleString('tr-TR')} TL`;
+        waLink.href = `https://wa.me/905333390027?text=${encodeURIComponent(msg)}`;
+      }
+    }
+
+    function sendCalculatedToModal() {
+      const range = document.getElementById('guestRange');
+      const select = document.getElementById('menuSelect');
+      const modalSalon = document.getElementById('modalSalon');
+      const modalGuests = document.getElementById('modalGuests');
+      const modalNotes = document.getElementById('modalNotes');
+
+      if (modalSalon) {
+        modalSalon.value = calcSalon === 'salon1'
+          ? 'Aksoylar Salon 1 (875 Kişi)'
+          : 'Aksoylar Salon 2 (550 Kişi)';
+      }
+      if (modalGuests && range) {
+        modalGuests.value = range.value;
+      }
+      if (modalNotes && select) {
+        const menuText = select.options[select.selectedIndex]?.text.split(' (')[0] || '';
+        modalNotes.value = `Ön hesaplamadan gelen talep (${menuText}, ${range ? range.value : ''} kişi).`;
+      }
+
+      openQuoteModal();
+    }
+
+    updateCalculator();
+  </script>
+</body>
+</html>
